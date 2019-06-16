@@ -1,0 +1,20 @@
+#fibonacci
+
+def fibonacci(n):
+      if n == 0:
+            print(0)
+      elif n == 1:
+            print(1)
+      else:
+            num = fibonacci(n - 2)
+            num2 = fibonacci(n - 1)
+            fnum = num + num2
+            return fnum
+            print(fnum)
+
+fibonacci(76)
+if x == y:
+      print(x)
+else:
+      print(y)
+      
