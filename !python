@@ -1,0 +1,2 @@
+fruit = input("Put your string?")
+print(fruit[:])
